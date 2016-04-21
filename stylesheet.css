@@ -1,0 +1,631 @@
+::-webkit-scrollbar{
+
+	width: 16px;
+}
+ 
+::-webkit-scrollbar-track{
+
+	background: #000000;
+}
+ 
+::-webkit-scrollbar-thumb{
+
+	background-color: #63A3DE;
+}
+
+body{
+
+	background-image: url("resources/background.png");
+	background-attachment: fixed;
+	background-position: center;
+	color: #000000;
+	font-family: Helvetica;
+	font-weight: lighter;
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+}
+
+img#logo{
+
+	z-index: 2;
+	position: fixed;
+	right: 130px;
+	bottom: -20px;
+	width: 300px;
+}
+
+modal{
+	z-index: 1;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+modal > div.cart{
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background: #AAAAAA;
+	color: #000000;
+	box-shadow: 5px 5px 0px #FFFFFF;
+	height: 420px;
+	width: 600px;
+	margin-left: -300px;
+	margin-top: -210px;
+
+}
+
+modal > div.cart > h1{
+
+	font-family: "Silom";
+	font-style: italic;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 5px;
+}
+
+modal > div.cart > h1 > img{
+
+	vertical-align: bottom;
+}
+
+modal > div.cart > span.close{
+
+	float: right;
+	font-size: xx-large;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+
+modal > div.cart > span.close:hover{
+
+	color: #EC6139;
+}
+
+modal > div.cart > form{
+
+	width: 600px;
+	height: 275px;
+	background: #FFFFFF;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+
+modal > div.cart > form > p{
+
+	color: #AAAAAA;
+	text-align: center;
+	margin-top: 100px;
+}
+
+modal > div.cart > form > div.product{
+
+	background: none;
+	height: 70px;
+	min-width: 580px;
+	margin: 0;
+}
+
+modal > div.cart > form > div.product:nth-child(even){
+
+	background: #EEEEEE;
+}
+
+modal > div.cart > form > div.product:last-child{
+
+	margin: 0;
+}
+
+modal > div.cart > form > div.product > div.title{
+
+	display: inline-block;
+	font-family: "Silom";
+	font-style: italic;
+	margin: 25px;
+}
+
+modal > div.cart > form > div.product > div.price{
+
+	float: right;
+	text-align: right;
+	width: 100px;
+	margin: 25px;
+}
+
+modal > div.cart > form > div.product > input[type=submit]{
+
+	position: relative;
+	float: right;
+	background: none;
+	background-image: url("resources/icons/trash.png");
+	background-repeat: no-repeat;
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+}
+
+modal > div.cart > form > div.product > input[type=submit]:hover{
+
+	background: none;
+	background-image: url("resources/icons/trash-hover.png");
+	background-repeat: no-repeat;
+}
+
+modal > div.cart > div.subtotal{
+
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	font-size: xx-large;
+	font-weight: thin;
+	margin: 20px;
+}
+
+modal > div.cart > div.subtotal > span{
+
+	font-size: smaller; 
+}
+
+modal > div.error{
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background: #63A3DE;
+	color: #000000;
+	box-shadow: 5px 5px 0px #FFFFFF;
+	height: 150px;
+	width: 500px;
+	margin-left: -250px;
+	margin-top: -75px;
+}
+
+modal > div.error > p{
+
+	font-family: "Silom";
+	text-align: center;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin: 30px;
+}
+
+modal > div.error > span.close{
+
+	float: right;
+	font-size: xx-large;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+
+modal > div.error > span.close:hover{
+
+	color: #EC6139;
+}
+
+footer{
+	z-index: 1;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color: #000000;
+	height: 75px;
+	width: 100%;
+	color: #FEFEFC;
+	font-size: x-small;
+	text-align: center;
+}
+
+footer > ul{
+
+	float: left;
+	font-family: "Silom";
+	font-size: large;
+	font-style: italic;
+	list-style-image: none;
+}
+
+footer > ul > li{
+
+	display: inline-block;
+	margin: 10px;
+}
+
+footer > ul > li > img{
+
+	visibility: hidden;
+	vertical-align: middle	
+}
+
+footer > ul > li > a{
+
+	color: #FFFFFF;
+	text-decoration: none;
+}
+footer > ul > li > a:visited{
+
+	color: #FFFFFF;
+}
+
+navbar{
+
+	display: block;
+	background: #63A3DE;
+	width: 100%;
+	height: 75px;
+	font-size: large;
+	font-family: "Silom";
+	box-shadow: 0px -6px 6px rgba(0, 0, 0, .2);
+	padding: 0;
+}
+
+navbar >span{
+
+	float: left;
+	font-weight: normal;
+	font-size: x-large;
+	font-style: italic;
+	text-align: center;
+	line-height: 55px;
+	padding: 10px 25px;
+}
+
+navbar > span:hover{
+
+	background-color: #EC6139;
+}
+
+navbar > span.selected{
+
+	background-color: #000000;
+}
+
+
+navbar > span#cart{
+
+	font-style: normal;
+	font-size: xx-large;
+	float: right;
+}
+
+navbar > span > a{
+
+	display: block;
+	color: #FEFEFC;
+	text-align: center;
+	text-decoration: none;
+}
+
+navbar > span#cart > img{
+
+	vertical-align: bottom;
+}
+
+div.container{
+
+	display: block;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+input{
+
+	display: inline-block;
+	font-size: 16px;
+	-webkit-appearance: none;
+}
+
+input:focus, select:focus{
+
+	outline: none;
+}
+
+input[type=submit], input[type=button]{
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	padding: 5;
+	color: #FFFFFF;
+	background-color: #63A3DE;
+	border: none;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+
+	background: #EC6139;
+}
+
+input[type=checkbox]{
+
+	width: 1em;
+	height: 1em;
+	vertical-align: text-top;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.1),
+	                    inset 0 0 1px rgba(255,255,255, 0.4);
+	-webkit-border-radius: 3px;
+}
+
+
+div.section{
+
+	width: 98%;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	margin: 10px;
+	float: left;
+}
+
+div.product{
+
+	float: left;
+	width: 100%;
+	min-width: 900px;
+	height: 250px;
+	color: #000000;
+	background-color: #AAAAAA; 
+	box-shadow: 5px 5px 0px #FFFFFF;
+	margin: 10px;
+}
+
+div.product:last-child{
+
+	margin-bottom: 100px;
+}
+
+div.product > div.container{
+
+	position: relative;
+	float: left;
+	display: block;
+	height: 87%;
+	border: 1px solid #CCCCCC;
+	margin: 5px;
+	padding: 10px;
+}
+
+div.product > div.container#img_prevw{
+
+	background: #FFFFFF;
+	width: 30%;
+}
+
+div.product > div.container#info_prevw{
+
+	width: 60%;
+	border: none;
+}
+
+
+div.product  > div.container > img{
+
+	display: block;
+	max-width:100%;
+	max-height:100%;
+	margin: auto;
+}
+
+div.product > div.container > div.title{
+
+	font-family: "Silom";
+	font-size: large;
+	font-style: italic;
+	text-align: center;
+	margin: 5px;
+}
+
+div.product > div.container > div.id{
+
+	position: absolute;
+	bottom: 50px;
+	left: 10px;
+	font-size: small;
+	line-height: 0px;
+}
+
+div.product > div.container > div.summary{
+
+	font-size: small;
+}
+
+div.product > div.container > div.price{
+
+	position: absolute;
+	bottom: 50px;
+	right: 0px;
+	display: inline-block;
+	font-size: xx-large;
+	line-height:15px;
+}
+
+form{
+	float: left;
+	padding: 10px;
+}
+
+form#signup{
+
+	width: 59%;
+}
+
+form#signin{
+
+	width: 35%;
+}
+
+form > input#order{
+
+	background: url('/resources/order.png') no-repeat top left;
+	width: 250px;
+	height: 200px;
+	border: none;
+	position: relative;
+	top: -215px;
+	left: 500px;
+}
+
+form > input#order:hover{
+
+	background: url('/resources/order_hover.png') no-repeat top left;
+}
+
+form > div.section{
+
+	display: inline-block;
+	width: 95%;
+	background-color: #FFFFFF;
+	border: 1px solid #808080;
+	border-radius: 0px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+	padding: 10px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+form#signin > div.section{
+
+	background-color: #909090;
+}
+
+form#signin > div.section > input{
+
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+form#signin > div.section > input:hover{
+
+	background-color: #0d82d5;
+}
+
+form > div.section > h1{
+
+	background: transparent;
+	border: none;
+	font-family: "Betty Noir";
+	font-size: x-large;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+form#signin > div.section > h1{
+
+	color: #FFFFFF;
+}
+
+form > div.section > div.container{
+
+	width: auto;
+	display: inline-block;
+	font-size: 11px;
+	margin: 15px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+form > div.section > div.container#pp{
+
+	display: none;
+}
+
+form > div.section > div.container > select{
+
+	margin-left: 20px;
+}
+
+form > div.section > div.container > img{
+
+	margin-right: 15px;
+	width: 45px;
+}
+
+form > div.section > div.container > textarea{
+
+	resize: none;
+}
+
+form > div.section > div.container > input#email{
+
+	width: 210px;
+}
+
+form > div.section > div.container > input#passw{
+
+	width: 170px;
+}
+
+form > div.section > div.container > input#passwrep{
+
+	width: 170px;
+}
+
+form > div.section > div.container > input#ccnum{
+
+	width: 100px; 
+}
+
+form > div.section > div.container > input#ccname{
+
+	width: 165px; 
+}
+
+form > div.section > div.container > input#ccsc{
+
+	width: 30px;
+}
+
+form > div.section > div.container > input#ppname{
+
+	width: 210px;
+}
+
+form#signin > div.section > div.container > input#email{
+
+	width:220px;
+}
+
+form#signin > div.section > div.container > input#password{
+
+	width:220px;
+}
+
+form > div.section > div.container > span.text{
+
+	display: inline-block;
+	font-size: small;
+	font-weight: lighter;
+	margin-right: 5px;
+}
+
+form#signin > div.section > div.container > span.text{
+
+	color: #FFFFFF;
+}
+
+form > div.section > div.container > span.subtext{
+
+	font-weight: lighter;
+}
+
+form#signin > div.section > div.container > span.subtext{
+
+	color: #FFFFFF;
+}
+
+form > div.section > div.container > span.error{
+
+	color: #FF0000;
+}
+
+

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+
+   <product category="comic">
+
+      <title>Blackest Night</title>
+
+      <id>1000</id>
+
+      <format>Trade Paperback</format>
+
+      <publisher>DC Comics</publisher>
+
+      <summary>
+         Throughout the decades, death has plagued the DC Universe and taken the lives of heroes and villains alike. But to what end? As the War between the different colored Lantern Corps rages on, the prophecy of the Blackest Night descends and it's up to Hal Jordan and the Green Lantern Corps to lead DC's greatest champions in a battle to save the Universe from an army of undead Black Lanterns made up of fallen Green Lanterns and DC's deceased heroes and villains.
+      </summary>
+
+      <price>20</price>
+
+   </product>
+
+   <product category="comic">
+
+      <title>Green Lantern By Geoff Johns Omnibus Vol. 2</title>
+
+      <id>1001</id>
+
+      <format>Hardcover</format>
+
+      <publisher>DC Comics</publisher>
+
+      <summary>
+         Best-selling writer and Chief Creative Officer of DC Comics, Geoff Johns revitalized the Green Lantern franchise in his decade long run beginning with GREEN LANTERN: REBIRTH and culminating with WRATH OF THE FIRST LANTERN.
+      </summary>
+
+      <price>85</price>
+
+   </product>
+
+   <product category="comic">
+
+      <title>Civil War #1</title>
+
+      <id>1002</id>
+
+      <format>Trade Paperback</format>
+
+      <publisher>Marvel</publisher>
+
+      <summary>
+         THE LANDSCAPE OF THE MARVEL U IS CHANGING AND IT'S TIME TO DECIDE: WHOSE SIDE ARE YOU ON? A conflict has been brewing in the Marvel Universe, threatening to pit friend against friend, brother against brother--and all it will take is a single misstep to cost thousands their lives and ignite the fuse!  As the war claims its first victims, no one is safe as teams, friendships, and families begin to fall apart. Starring Spider-Man, the New Avengers, the Fantastic Four, the X-Men and the entirety of the Marvel pantheon!
+      </summary>
+
+      <price>15</price>
+
+   </product>
+
+   <product category="comic">
+
+      <title>Watchmen: Deluxe Edition</title>
+
+      <id>1003</id>
+
+      <format>Hardcover</format>
+
+      <publisher>DC Comics</publisher>
+
+      <summary>
+         In an alternate world where the mere presence of American superheroes changed history, the US won the Vietnam War, Nixon is still president, and the cold war is in full effect.  WATCHMEN begins as a murder-mystery, but soon unfolds into a planet-altering conspiracy. As the resolution comes to a head, the unlikely group of reunited heroes--Rorschach, Nite Owl, Silk Spectre, Dr. Manhattan and Ozymandias--have to test the limits of their convictions and ask themselves where the true line is between good and evil.
+      </summary>
+
+      <price>40</price>
+
+   </product>
+
+   <product category="comic">
+
+      <title>Batman: Year One</title>
+
+      <id>1004</id>
+
+      <format>Paperback</format>
+
+      <publisher>DC Comics</publisher>
+
+      <summary>
+         Written shortly after THE DARK KNIGHT RETURNS, Miller's dystopian fable of Batman's final days, Year One set the stage for a new vision of a legendary character. This edition includes the complete graphic novel, a new introduction by writer Frank Miller and a new illustrated afterword by artist David Mazzucchelli. 
+      </summary>
+
+      <price>18</price>
+
+   </product>
+
+   <product category="anime">
+
+      <title>Cowboy Bebop: The Complete Series</title>
+
+      <id>1005</id>
+
+      <format>Blu-ray</format>
+
+      <publisher>Funimation</publisher>
+
+      <summary>
+         The year 2071 A.D. That future is now. Driven out of their terrestrial eden, humanity chose the stars as the final frontier. With the section-by-section collapse of the former nations a mixed jumble of races and peoples came. They spread to the stars, taking with them the now confused concepts of freedom, violence, illegality and love, where new rules and a new generation of outlaws came into being. People referred to them as Cowboys.
+      </summary>
+
+      <price>35</price>
+
+   </product>
+
+   <product category="anime">
+
+      <title>End of Evangelion</title>
+
+      <id>1006</id>
+
+      <format>DVD</format>
+
+      <publisher>Manga Video</publisher>
+
+      <summary>
+         End of Evangelion begins where the series ended: with the Angels defeated, the sinister cabal SEELE attacks NERV headquarters to seize the Evas and realize their plan for humanity. Misato and Ritsuko fight from inside while Asuka decimates a new Eva series. Anno's dazzling apocalyptic vision forms a weird but oddly logical finale that ultimately means whatever the viewer chooses to read into it.
+      </summary>
+
+      <price>185</price>
+
+   </product>
+
+   <product category="anime">
+
+      <title>Jin-Roh: The Wolf Brigade</title>
+
+      <id>1007</id>
+
+      <format>Blu-Ray</format>
+
+      <publisher>Eastern Star</publisher>
+
+      <summary>
+         Scripted by the legendary anime director Mamoru Oshii (Ghost in the Shell, Patlabor) and directed by Hiroyuki Okiura (Ghost in the Shell), JIN-ROH is a film that asks the question: can man ever truly rise above the level of a mere beast?
+      </summary>
+
+      <price>20</price>
+
+   </product>
+ 
+   <product category="anime">
+
+      <title>Ghost in the Shell: 25th Anniversary Edition</title>
+
+      <id>1008</id>
+
+      <format>Blu-Ray</format>
+
+      <publisher>Anchor Bay Entertainment</publisher>
+
+      <summary>
+         A female government cyber agent and the Internal Bureau of Investigations are hot on the trail of The Puppet Master - a computer virus capable of invading cybernetic brains and altering its victim's memory. Created by the Ministry of Foreign Affairs and codenamed Project 2501, this 'hacker' is actually a prototype virtual agent which has now defied its makers by seeking asylum within a new host body outside of the electronic net.
+      </summary>
+
+      <price>30</price>
+
+   </product>
+ 
+   <product category="manga">
+
+      <title>Golgo 13, Volume 1</title>
+
+      <id>1010</id>
+
+      <format>Paperback</format>
+
+      <publisher>VIZ Media</publisher>
+
+      <summary>
+         In 1991, UN inspectors found the incomplete Project Babylon--a cannon capable of hurling a shell 600 miles. In 1995, the Clinton administration learns of a second, hidden Iraqi supergun--now operational, and with a much, much longer range... There are only two options to destroy the supergun: send in an airstrike--or send in Golgo 13!
+      </summary>
+
+      <price>12</price>
+
+   </product>
+
+   <product category="manga">
+
+      <title>Golgo 13, Volume 8</title>
+
+      <id>1011</id>
+
+      <format>Paperback</format>
+
+      <publisher>VIZ Media</publisher>
+
+      <summary>
+         1982: Golgo 13 never misses...until now! A beautiful KGB agent guards his target--yet her secret is not of the heart, but in the mind... Then, in 1978, a young priest finds he cannot forgive a killer when the victim is his own family. Hiring Golgo won't be enough, though--the man of the cloth must assist the assassin in a bizarre scheme to get Golgo's rifle past the watchful eyes of mobsters who trust neither of them!
+      </summary>
+
+      <price>12</price>
+
+   </product>
+
+   <product category="manga">
+
+      <title>Golgo 13, Volume 11 </title>
+
+      <id>1012</id>
+
+      <format>Paperback</format>
+
+      <publisher>VIZ Media</publisher>
+
+      <summary>
+         1996: Okinawa, Japan's smallest prefecture, holds 75 percent of the U.S. military presence in Japan. When a Self-Defense Force officer is murdered by his associates, Golgo steps into the ominous discontent behind one of Japan's greatest controversies!
+      </summary>
+
+      <price>12</price>
+
+   </product>
+
+   <product category="manga">
+
+      <title>Neon Genesis Evangelion, Vol. 1</title>
+
+      <id>1013</id>
+
+      <format>Paperback</format>
+
+      <publisher>VIZ Media</publisher>
+
+      <summary>
+         A teenager named Shinji Ikari goes to Tokyo-3 city due to a request from his father, Gendo Ikari. While meeting with Misato Katsuragi, an employer from Gendo, the city is attacked by a giant created known as Angel, that confronts the army. Misato takes Shinji to NERV, an organization headed by Gendo that developed giant bio-mechanical mecha known as Evangelions.
+      </summary>
+
+      <price>15</price>
+
+   </product>
+
+   <product category="manga">
+
+      <title>Neon Genesis Evangelion, Vol. 13</title>
+
+      <id>1014</id>
+
+      <format>Paperback</format>
+
+      <publisher>VIZ Media</publisher>
+
+      <summary>
+         Shinji pilots Unit-01 and saves Asuka from the mass produced Evas. Meanwhile, Ritsuko tries to self-destruct the NERV facility to stop Gendo's plan but she fails and is shot by Gendo. While Shinji is dealing with SEELE's Evas, he awakens once again all of Unit-01's potential but the lost Spear of Longinus automatically stops the Eva which ends cruxified. Gendo then proceeds to initiate a Third Impact by merging with the third Rei who possesses the DNA from Lilith.
+      </summary>
+
+      <price>15</price>
+
+   </product>
+
+</products>
